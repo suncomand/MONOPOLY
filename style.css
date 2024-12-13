@@ -1,0 +1,111 @@
+body {
+    background-image: url("https://freevector-images.s3.amazonaws.com/uploads/vector/preview/133408/vecteezymonopoly-template-paper-money-fake-backgroundge0822_generated.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 30px;
+    flex-direction: row;
+}
+
+.game-board {
+
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(11, 90px);
+    grid-template-rows: repeat(11, 70px);
+    gap: 2px;
+    background-color: #fff;
+    border: 2px solid #000;
+    width: 1012px;
+    height: 650px;
+}
+.score{
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: #f4f4f4;
+    height: 160px;
+    width: auto;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 70px;
+    text-align: center;
+    font-size: 8px;
+    border: 1px solid #ffffff;
+}
+
+.box.empty {
+    background-color: #ffffff;
+}
+
+.box.property {
+    background-color: #f0f8ff;
+}
+
+.box.special {
+    background-color: #ffe4e1;
+}
+
+.box.tax {
+    background-color: #ffdead;
+}
+
+.box.utility {
+    background-color: #e6e6fa;
+}
+
+.box.railroad {
+    background-color: #f5f5dc;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin: 5px;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    margin: 5px;
+}
+.property {
+    border: 1px solid black;
+}
+
+.highlight {
+    border: 2px solid blue;
+}
+.info {
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: #f4f4f4;
+
+}
+.player {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.button1{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+button{
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 25%;
+
+}

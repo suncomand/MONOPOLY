@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-$END$
+<div id="gameBoard" class="game-board"></div>
+<div>
+<div class="info">
+    <h2>Players info</h2>
+    <button id="rollDiceButton" class="button1">Roll Dice</button>
+    <div id="rollResult"></div>
+    <div id="diceResult"></div>
+    <div id="turnIndicator"></div>
+    <div id="player1Position">Player 1's Position: 0</div>
+    <div id="player2Position">Player 2's Position: 0</div>
+</div>
+<div class="score">
+    <h2>Players money</h2>
+<div id="player1Score">Player 1's Score: $1000</div>
+<div id="player2Score">Player 2's Score: $1000</div>
+    <script src="index.js"></script>
+</div>
+</div>
 </body>
 </html>
